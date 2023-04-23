@@ -22,11 +22,11 @@ jobs:
     - uses: actions/checkout@v2
 
     # Runs a single command using the runners shell
-    - name: downloading data
-      run: make download 
+#    - name: downloading data
+#      run: make download 
     
-    - name: running analysis 
-      run: make analysis
+#    - name: running analysis 
+#      run: make analysis
 
     - name: knitting document
       run: make document

@@ -1,5 +1,5 @@
 all: 
-#	make download
+	make download
 	make analysis
 	make document
 
