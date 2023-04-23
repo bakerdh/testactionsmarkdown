@@ -27,8 +27,8 @@ all:
 #	R -e "source('./code/analysis.R')"
 
 # Create the data
-document: made/hilgard.Rdata made/hilgard_download_info.Rdata
-	docker-compose run --rm document
+#document: made/hilgard.Rdata made/hilgard_download_info.Rdata
+document:	docker-compose run --rm document
 
 document-docker: 
 	R -e "xfun::pkg_attach2('rmarkdown')"
