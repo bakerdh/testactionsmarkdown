@@ -32,7 +32,7 @@ document: made/hilgard.Rdata made/hilgard_download_info.Rdata
 
 document-docker: 
 	R -e "xfun::pkg_attach2('rmarkdown')"
-	R -e "rmarkdown::render('docs/hilgard-LJC.Rmd')"
+	R -e "rmarkdown::render('manuscript.Rmd')"
 
 clean:
 	rm -rf data
