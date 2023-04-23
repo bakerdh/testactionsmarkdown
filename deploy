@@ -1,7 +1,7 @@
 #!/bin/bash
 
 mkdir build
-cp docs/*.pdf build/
+cp *.pdf build/
 
 cd build
 echo "<a href=\"$(ls *.pdf)\">Document</a>" > index.html
