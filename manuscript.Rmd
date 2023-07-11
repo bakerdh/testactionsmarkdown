@@ -17,7 +17,7 @@ csl: elife.csl
 
 ```{r setup, include=FALSE}
 
-packagelist <- c('knitr','remotes','tictoc','R.matlab','osfr','grDevices','ez','BayesFactor') # list of CRAN packages
+packagelist <- c('knitr','remotes','tictoc','R.matlab','osfr','grDevices','ez','BayesFactor','rgl') # list of CRAN packages
 
 # find which packages are missing and install them
 missingpackages <- packagelist[!packagelist %in% installed.packages()[,1]]
