@@ -1,8 +1,8 @@
 version: '3.8'
 services:
   document:
-    container_name: lcolling/odphelper:knit
-    image: lcolling/odphelper:knit
+    container_name: bakerdh/testactionsmarkdown:knit
+    image: bakerdh/testactionsmarkdown:knit
     volumes:
       - .:/home/rstudio
     environment:
