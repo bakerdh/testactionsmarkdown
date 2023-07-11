@@ -1,6 +1,9 @@
 version: '3.8'
 services:
   document:
+    build:
+      dockerfile: docker/Dockerfile
+      context: .
     container_name: bakerdh/testactionsmarkdown:knit
     image: bakerdh/testactionsmarkdown:knit
     volumes:
